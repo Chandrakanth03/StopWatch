@@ -1,0 +1,64 @@
+
+body{
+    background-image: url("images/img.jpg");
+   background-position: center;
+   background-repeat: repeat;
+   background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+}
+
+#myh1{
+  color: white;
+  font-family: "Arial",'Times New Roman', Times, serif;
+  font-size:4rem;
+  text-align: center;
+}
+#container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+  background-image: url("images/img.jpg");
+  background-repeat:fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(150, 199, 246);
+  border-radius: 45px;
+
+  
+}
+#display{
+  font-size: 4.5rem;
+  font-weight: bold;
+  font-family:monospace;
+  color: #fff;
+}
+
+#controls button{
+  
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color:white;
+  transition: background-color 0.5s ease;
+}
+
+#start:hover{
+  background-color: rgb(131, 255, 131,40%);
+}
+#stop:hover{
+  background-color: rgb(253, 37, 37,45%);
+
+}
+#reset:hover{
+  background-color: rgb(215, 215, 92,45%);
+}
